@@ -4,15 +4,23 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33865.css?v=797511'; 
+  link.href = 'https://slater.app/13495/33865.css'; 
   document.head.appendChild(link); 
 } 
- 
+
+// bbc -> 
+{ 
+  const link = document.createElement('link'); 
+  link.rel = 'stylesheet'; 
+  link.href = 'https://slater.app/13495/36352.css'; 
+  document.head.appendChild(link); 
+} 
+
 // banner -> 
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33866.css?v=946671'; 
+  link.href = 'https://slater.app/13495/33866.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -20,7 +28,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33861.css?v=98201'; 
+  link.href = 'https://slater.app/13495/33861.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -28,7 +36,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33867.css?v=198880'; 
+  link.href = 'https://slater.app/13495/33867.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -36,7 +44,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33868.css?v=12527'; 
+  link.href = 'https://slater.app/13495/33868.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -44,7 +52,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33869.css?v=854499'; 
+  link.href = 'https://slater.app/13495/33869.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -52,7 +60,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33858.css?v=127341'; 
+  link.href = 'https://slater.app/13495/33858.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -60,7 +68,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33929.css?v=104607'; 
+  link.href = 'https://slater.app/13495/33929.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -68,7 +76,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33871.css?v=332196'; 
+  link.href = 'https://slater.app/13495/33871.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -76,7 +84,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33872.css?v=763234'; 
+  link.href = 'https://slater.app/13495/33872.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -84,7 +92,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/35627.css?v=639440'; 
+  link.href = 'https://slater.app/13495/35627.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -92,7 +100,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/35751.css?v=883969'; 
+  link.href = 'https://slater.app/13495/35751.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -100,7 +108,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33859.css?v=652164'; 
+  link.href = 'https://slater.app/13495/33859.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -108,7 +116,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33873.css?v=507311'; 
+  link.href = 'https://slater.app/13495/33873.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -116,7 +124,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/35739.css?v=353761'; 
+  link.href = 'https://slater.app/13495/35739.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -124,7 +132,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33874.css?v=790075'; 
+  link.href = 'https://slater.app/13495/33874.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -132,7 +140,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33875.css?v=478285'; 
+  link.href = 'https://slater.app/13495/33875.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -140,7 +148,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33876.css?v=418075'; 
+  link.href = 'https://slater.app/13495/33876.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -148,7 +156,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33877.css?v=252163'; 
+  link.href = 'https://slater.app/13495/33877.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -156,7 +164,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33878.css?v=490932'; 
+  link.href = 'https://slater.app/13495/33878.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -164,7 +172,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33879.css?v=634414'; 
+  link.href = 'https://slater.app/13495/33879.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -172,7 +180,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33880.css?v=527262'; 
+  link.href = 'https://slater.app/13495/33880.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -180,7 +188,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33881.css?v=519177'; 
+  link.href = 'https://slater.app/13495/33881.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -188,7 +196,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33882.css?v=375625'; 
+  link.href = 'https://slater.app/13495/33882.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -196,7 +204,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33863.css?v=469704'; 
+  link.href = 'https://slater.app/13495/33863.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -204,7 +212,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33883.css?v=45114'; 
+  link.href = 'https://slater.app/13495/33883.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -212,7 +220,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33862.css?v=181696'; 
+  link.href = 'https://slater.app/13495/33862.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -220,7 +228,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33930.css?v=970847'; 
+  link.href = 'https://slater.app/13495/33930.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -228,7 +236,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/35806.css?v=110185'; 
+  link.href = 'https://slater.app/13495/35806.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -236,7 +244,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/35606.css?v=71906'; 
+  link.href = 'https://slater.app/13495/35606.css'; 
   document.head.appendChild(link); 
 } 
  
