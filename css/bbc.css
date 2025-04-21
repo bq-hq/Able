@@ -1,0 +1,12 @@
+/* Change appearance of current tab to follow design system standards .w--current*/
+.bbc-itm[data-active="true"] .label_wrap {
+  color: var(--color--p500);
+}
+
+.bbc-itm[data-active="true"] .label_wrap .txt {
+  font-weight: bold;
+}
+
+.bbc-itm[data-active="true"] .label_wrap .icn::first-letter {
+  text-transform: uppercase;
+}
