@@ -1,0 +1,88 @@
+/* Cell Size Standards */
+/* For standard cell widths */
+[data-cell-size="9xl"] {
+  width: 640px;
+}
+
+[data-cell-size="8xl"] {
+  width: 540px;
+}
+
+[data-cell-size="7xl"] {
+  width: 440px;
+}
+
+[data-cell-size="6xl"] {
+  width: 360px;
+}
+
+[data-cell-size="5xl"] {
+  width: 300px;
+}
+
+[data-cell-size="4xl"] {
+  width: 200px;
+}
+
+[data-cell-size="3xl"] {
+  width: 156px;
+}
+
+[data-cell-size="2xl"] {
+  width: 104px;
+}
+
+[data-cell-size="xl"] {
+  width: 88px;
+}
+
+[data-cell-size="l"] {
+  width: 72px;
+}
+
+[data-cell-size="m"] {
+  width: 56px;
+}
+
+[data-cell-size="s"] {
+  width: 40px;
+}
+
+[data-cell-size="xs"] {
+  width: 32px;
+}
+
+/* Padding and design changes when cell content is in Card format */
+.cell-wrap[data-card="true"] {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.cell-wrap[data-card="true"] .cell-caption {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+}
+
+[data-card="true"] {
+  border-radius: 8px;
+  box-shadow: 0 1px 10px var(--color--n9992), 0 2px 4px var(--color--n9992), 0 4px 5px var(--color--n9991);
+}
+
+.cell-wrap[data-card="true"] * .obj_wrap {
+  border-radius: 0px;
+}
+
+.cell-wrap[data-card="true"] * .avtr_wrap {
+  margin-top: 8px;
+}
+
+/* Card Caption: Padding for the sides */
+[data-cap-pad="y"] {
+  padding: 4px 8px;
+}
+
+/* To Fix the side scroll cards from being squished, regular cards are 304 outside of side scroll */
+.u-bar-ss .cell-prof-act {
+  min-width: 356px;
+}
