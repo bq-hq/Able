@@ -1,0 +1,29 @@
+/****************************/
+/**.    CUSTOM STYLES     .**/
+/****************************/
+
+.page_wrap {
+  overflow: clip;
+  /* prevent horizontal scroll */
+}
+
+/* hide container ::before & ::after */
+.w-container::before,
+.w-container::after {
+  display: none;
+}
+
+/* empty div in designer view when utilities are added */
+.wf-empty[class*="--"] {
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+/* flex: reverse direction */
+[data-reverse-direction="true"] {
+  flex-direction: row-reverse;
+}
+
+/*******************************/
+/**     BQ CUSTOM STYLES      **/
+/*******************************/
