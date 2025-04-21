@@ -4,7 +4,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33865.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/badge.css'; 
   document.head.appendChild(link); 
 } 
 
@@ -12,7 +12,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/36352.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/bbc.css'; 
   document.head.appendChild(link); 
 } 
 
@@ -20,7 +20,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33866.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/banner.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -28,7 +28,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33861.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/button.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -36,7 +36,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33867.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/cell.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -44,7 +44,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33868.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/chiclet.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -52,7 +52,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33869.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/chip.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -60,7 +60,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33858.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/color.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -68,7 +68,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33929.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/custom.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -76,7 +76,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33871.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/element.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -84,7 +84,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33872.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/field.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -92,7 +92,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/35627.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/fluid.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -100,7 +100,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/35751.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/global.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -108,7 +108,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33859.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/label.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -116,15 +116,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33873.css'; 
-  document.head.appendChild(link); 
-} 
- 
-// minified -> 
-{ 
-  const link = document.createElement('link'); 
-  link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/35739.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/listitem.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -132,7 +124,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33874.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/object.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -140,7 +132,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33875.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/picker.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -148,7 +140,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33876.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/rdio-cbox.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -156,7 +148,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33877.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/segbtn.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -164,7 +156,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33878.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/slider.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -172,7 +164,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33879.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/snackbar.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -180,7 +172,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33880.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/stepper.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -188,7 +180,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33881.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/tab.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -196,7 +188,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33882.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/tags.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -204,7 +196,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33863.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/text.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -212,7 +204,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33883.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/tooltip.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -220,7 +212,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33862.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/typography.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -228,15 +220,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/33930.css'; 
-  document.head.appendChild(link); 
-} 
- 
-// WF Header -> 
-{ 
-  const link = document.createElement('link'); 
-  link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/35806.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/utility.css'; 
   document.head.appendChild(link); 
 } 
  
@@ -244,7 +228,7 @@ let paths = window.location.pathname.split('/')
 { 
   const link = document.createElement('link'); 
   link.rel = 'stylesheet'; 
-  link.href = 'https://slater.app/13495/35606.css'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/work.css'; 
   document.head.appendChild(link); 
 } 
  
