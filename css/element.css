@@ -1,0 +1,58 @@
+/* Menus Wrapper: For display on desktop as a menu component property to change the sizing */
+[data-mini="true"] {
+  container-type: inline-size;
+  container-name: menu;
+  max-width: 250px;
+}
+
+@container menu (max-width:250px) {
+  .menuitem {
+    min-height: 32px;
+  }
+
+  .g-privacy .menuitem {
+    min-height: 48px;
+  }
+
+  .mic-lead-icn {
+    padding: 0px 8px;
+  }
+
+  .label {
+    font-size: var(--r4);
+  }
+
+  .shead {
+    display: none;
+  }
+}
+
+/* For Desktop Detection */
+@media (pointer: fine) {
+  .menuitem {}
+}
+
+/* For Touch Device Detection */
+@media (pointer: coarse) {
+  .menuitem {}
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.bar-wrap::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.bar-wrap {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* Dialog: Set the backdrop color when htmx dialog shows */
+dialog::backdrop {
+  background-color: rgb(29 28 26 / 79%);
+  backdrop-filter: blur(8px);
+  /* And blur for some fun flare ;) */
+}
