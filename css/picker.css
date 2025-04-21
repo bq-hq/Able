@@ -1,0 +1,19 @@
+/* Picker for current day, week, month, year (Bolded with Accent Color) */
+[data-pick-current="true"] * {
+  color: var(--color--p500);
+  font-weight: bold;
+}
+
+/* Picker for the active selection */
+[data-pick-active="true"] {
+  background-color: var(--color--p500);
+}
+
+[data-pick-active="true"] * {
+  color: var(--color--n000);
+  font-weight: bold;
+}
+
+[data-pick-active="true"] .icn::first-letter {
+  text-transform: uppercase;
+}
