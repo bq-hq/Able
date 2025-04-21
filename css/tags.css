@@ -1,0 +1,36 @@
+/* Tag Sizes */
+[data-tag-size="l"] {
+  width: 24px;
+  height: 24px;
+}
+
+[data-tag-size="m"] {
+  width: 16px;
+  height: 16px;
+}
+
+[data-tag-size="s"] {
+  width: 8px;
+  height: 8px;
+}
+
+/* Tag Color */
+[data-tag-clr="d"] {
+  background: var(--color--fd500);
+}
+
+[data-tag-clr="w"] {
+  background: var(--color--fw500);
+}
+
+[data-tag-clr="s"] {
+  background: var(--color--fs500);
+}
+
+[data-tag-clr="p"] {
+  background: var--color--p500);
+}
+
+[data-tag-clr="n"] {
+  background: var(--color--n700);
+}
