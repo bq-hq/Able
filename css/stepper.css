@@ -1,0 +1,22 @@
+/* Input Stepper */
+[data-value-clr="w"] .inpstep-value {
+  color: var(--color--n000);
+}
+
+[data-value-clr="n"] .inpstep-value {
+  color: var(--color--n500);
+}
+
+[data-value-clr="d"] .inpstep-value {
+  color: var(--color--n900);
+}
+
+[data-step-ori="v"] {
+  flex-direction: column;
+  width: 36px;
+}
+
+[data-step-ori="h"] {
+  flex-direction: row-reverse;
+  width: 108px;
+}
