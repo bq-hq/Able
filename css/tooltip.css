@@ -1,0 +1,31 @@
+[data-tt-style="info"] .tooltip-body {
+  background: var(--color--f700);
+}
+
+[data-tt-style="info"] .arrow {
+  border-top-color: var(--color--f700);
+}
+
+[data-tt-style="success"] .tooltip-body {
+  background: var(--color--fs700);
+}
+
+[data-tt-style="success"] .arrow {
+  border-top-color: var(--color--fs700);
+}
+
+[data-tt-style="error"] .tooltip-body {
+  background: var(--color--fd700);
+}
+
+[data-tt-style="error"] .arrow {
+  border-top-color: var(--color--fd700);
+}
+
+[data-tt-style="warn"] .tooltip-body {
+  background: var(--color--fw700);
+}
+
+[data-tt-style="warn"] .arrow {
+  border-top-color: var(--color--fw700);
+}
