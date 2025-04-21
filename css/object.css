@@ -1,0 +1,182 @@
+/* Image, AdaptIcon, Avatar Standard Sizes */
+[data-obj-size="auto"] {
+  width: auto;
+}
+
+[data-obj-size="3xl"] {
+  width: 156px;
+  height: 156px;
+}
+
+[data-obj-size="2xl"] {
+  width: 104px;
+  height: 104px;
+}
+
+[data-obj-size="2xl"] .icn {
+  font-size: var(--_typography---size--h2);
+}
+
+[data-group-size="2xl"] .avtr_wrap,
+[data-group-size="2xl"] .obj_wrap .img,
+[data-group-size="2xl"] .adpt_wrap {
+  width: 104px;
+  height: 104px;
+}
+
+[data-obj-size="xl"] {
+  width: 80px;
+  height: 80px;
+}
+
+[data-obj-size="xl"] .icn {
+  font-size: var(--h2);
+}
+
+[data-group-size="xl"] .avtr_wrap,
+[data-group-size="xl"] .obj_wrap .img,
+[data-group-size="xl"] .adpt_wrap {
+  width: 80px;
+  height: 80px;
+}
+
+[data-obj-size="l"] {
+  width: 64px;
+  height: 64px;
+}
+
+[data-obj-size="l"] .icn {
+  font-size: var(--_typography---size--h3);
+}
+
+[data-group-size="l"] .avtr_wrap,
+[data-group-size="l"] .obj_wrap .img,
+[data-group-size="l"] .adpt_wrap {
+  width: 64px;
+  height: 64px;
+}
+
+[data-obj-size="m"] {
+  width: 48px;
+  height: 48px;
+}
+
+[data-obj-size="m"] .icn {
+  font-size: var(--_typography---size--h4);
+}
+
+[data-group-size="m"] .avtr_wrap,
+[data-group-size="m"] .obj_wrap .img,
+[data-group-size="m"] .adpt_wrap {
+  width: 48px;
+  height: 48px;
+}
+
+[data-obj-size="sm"] {
+  width: 40px;
+  height: 40px;
+}
+
+[data-obj-size="sm"] .icn {
+  font-size: var(--_typography---size--r2);
+}
+
+[data-group-size="sm"] .avtr_wrap,
+[data-group-size="sm"] .obj_wrap .img,
+[data-group-size="sm"] .adpt_wrap {
+  width: 40px;
+  height: 40px;
+}
+
+[data-obj-size="s"] {
+  width: 32px;
+  height: 32px;
+}
+
+[data-obj-size="s"] .icn {
+  font-size: var(--_typography---size--r2);
+}
+
+[data-group-size="s"] .avtr_wrap,
+[data-group-size="s"] .obj_wrap .img,
+[data-group-size="s"] .adpt_wrap {
+  width: 32px;
+  height: 32px;
+}
+
+[data-obj-size="xs"] {
+  width: 24px;
+  height: 24px;
+}
+
+[data-obj-size="xs"] .icn {
+  font-size: var(--_typography---size--r4);
+}
+
+[data-group-size="xs"] .avtr_wrap,
+[data-group-size="xs"] .obj_wrap .img,
+[data-group-size="xs"] .adpt_wrap {
+  width: 24px;
+  height: 24px;
+}
+
+[data-overlap="true"] {
+  margin-right: -8px;
+}
+
+/* AdaptIcon, Avatar, Etc. Standard Shape */
+[data-shape="c"],
+[data-group-shape="c"] {
+  border-radius: var(--radius--round);
+}
+
+[data-shape="s"],
+[data-group-shape="s"] {
+  border-radius: 2.2vw;
+}
+
+[data-shape="r"],
+[data-group-shape="r"] {
+  border-radius: 0.5vw;
+}
+
+[data-shape="b"],
+[data-group-shape="b"] {
+  border-radius: 0px;
+}
+
+[data-shape="in"] {
+  border-radius: inherit;
+}
+
+/* AdptIcn  Changd out for BG-CLR */
+[data-obj-clr="d"] {
+  background: var(--color--fd500);
+  border-color: var(--color--fd500);
+}
+
+[data-obj-clr="w"] {
+  background: var(--color--fw500);
+  border-color: var(--color--fw500);
+}
+
+[data-obj-clr="s"] {
+  background: var(--color--fs500);
+  border-color: var(--color--fs500);
+}
+
+[data-obj-clr="p"] {
+  background: var(--color--p500);
+  border-color: var(--color--p500);
+}
+
+[data-obj-clr="n"] {
+  background: var(--color--n500);
+  border-color: var(--color--n500);
+}
+
+[data-obj-on="true"] {
+  border-radius: 100vh;
+  border-width: 1px;
+  border-color: var(--color--p500);
+}
