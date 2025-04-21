@@ -1,0 +1,51 @@
+/* Input Field */
+[data-field-icn="n"] {
+  padding-left: 8px;
+}
+
+[data-field-icn="l"] {
+  padding-left: 30px;
+}
+
+[data-field-brd="d"] {
+  border: 1px solid var(--color--fd500);
+}
+
+[data-field-brd="w"] {
+  border: 1px solid var(--color--fw500);
+}
+
+[data-field-brd="s"] {
+  border: 1px solid var(--color--fs500);
+}
+
+.textarea {
+  /* resize: none; */
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+/* this was messing with the selectlist dropdown so commented out.
+.w-dropdown {z-index: 0;}
+   */
+
+/* This is for the Rating Component */
+[data-rate-stack="y"] {
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Still need to finish this to get it working */
+[data-rate-size="s"] *,
+.rate_bg,
+.rate_half,
+.rate_on {
+  font-size: .75rem;
+}
+
+[data-rate-size="m"] *,
+.rate_bg,
+.rate_half,
+.rate_on {
+  font-size: 1rem;
+}
