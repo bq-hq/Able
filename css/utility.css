@@ -1,0 +1,424 @@
+/*****************************/
+/**.    UTILITY STYLES     .**/
+/*****************************/
+/*
+
+
+/* default variables */
+html {
+
+  /* stroke width = border width */
+  --sw0: var(--bw0);
+  --sw1: var(--bw1);
+  --sw2: var(--bw2);
+  /* default grid gap */
+  --default-grid-gap: 1rem;
+  --default-row-gap: var(--default-grid-gap);
+  --default-column-gap: var(--default-grid-gap);
+  /* spacing scale */
+  --spacing-scale: 1;
+}
+
+/* defaults */
+* {
+  -webkit-text-stroke-width: var(--sw0);
+  border-radius: var(--br0);
+  border-width: var(--bw0);
+}
+
+/***********************************************/
+/**MOVED FROM DS CODE***************************/
+/***********************************************/
+
+/* Editor Styling */
+.g-editor[data-editor-clr="light"] {
+  background: var(--color--n000);
+  color: var(--color--n900);
+}
+
+.g-editor[data-editor-clr="dark"] {
+  background: var(--color--n999);
+  color: var(--color--n000);
+}
+
+.g-editor[data-editor-clr="black"] {
+  background: var(--color--n999);
+  color: var(--color--n000);
+}
+
+.toolbar-ss .btn-link {
+  width: 56px;
+}
+
+/* Media View Component Styling */
+.media_view[data-bg-clr="black"] * {
+  background-color: black;
+  border-color: var(--color--n999);
+}
+
+.media_view[data-bg-clr="black"] * .label,
+.media_view[data-bg-clr="black"] * .li-prime-title {
+  color: var(--color--n000);
+}
+
+.media_view[data-bg-clr="black"] * .post-titlecopy {
+  color: var(--color--n000);
+}
+
+.media_view[data-bg-clr="black"] * .post-copy {
+  color: var(--color--n300);
+}
+
+/* Makes BBC SegmentBar & Textfield correct height */
+.bbc_prime .segopt-ctrl {
+  height: 48px;
+}
+
+.bbc_input-field .field-input .textfield {
+  height: 48px;
+}
+
+/* IN GITHUB */
+/* Padding and design changes when cell content is in Card format */
+.cell-wrap[data-cell-card="true"] {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* For standard hero graphic aspect ratios */
+[data-obj-asp="72-9"] {
+  aspect-ratio: 72/9;
+}
+
+[data-obj-asp="64-9"] {
+  aspect-ratio: 64/9;
+}
+
+/***********************************************/
+/**END MOVED FROM DS CODE***********************/
+/***********************************************/
+
+/* tablet */
+@media screen and (max-width: 991px) {
+  html {
+    /* page padding */
+    --pp1: 1rem;
+    /* spacing scale */
+    --spacing-scale: 0.75;
+  }
+}
+
+< !--brian: Adding ability to have tablet breakpoint at 1024 rather than the WF default 991 -->@media screen and (max-width: 1024px) {
+  .w-nav[data-collapse="medium"] .w-nav-menu {
+    display: none;
+  }
+
+  .w-nav[data-collapse="medium"] .w-nav-button {
+    display: block;
+  }
+}
+
+/* landscape */
+@media screen and (max-width: 767px) {
+
+  /* frosted glass text for signup screens */
+  [ts="fg"] {
+    text-shadow: 0px -.5px 0px var(--color--n999), 0px .8px 0px var(--color--n0005);
+  }
+
+  html {
+    /* page padding */
+    --pp1: 1rem;
+    /* spacing scale */
+    --spacing-scale: 0.5;
+  }
+}
+
+/* portrait */
+@media screen and (max-width: 479px) {
+  html {
+    /* page padding */
+    --pp1: 1rem;
+  }
+}
+
+/* For Desktop Detection */
+@media (pointer: fine) {
+  .menuitem {}
+}
+
+/* For Touch Device Detection */
+@media (pointer: coarse) {
+  .menuitem {}
+}
+
+/* section styles */
+main section,
+header,
+footer {
+  position: relative;
+  padding-top: var(--vt2);
+  padding-bottom: var(--vb2);
+}
+
+/* small */
+[class*="vt1"],
+[vertical-top="1"] {
+  padding-top: var(--vt1);
+}
+
+[class*="vb1"],
+[vertical-bottom="1"] {
+  padding-bottom: var(--vb1);
+}
+
+/* medium */
+[class*="vt2"],
+[vertical-top="2"] {
+  padding-top: var(--vt2);
+}
+
+[class*="vb2"],
+[vertical-bottom="2"] {
+  padding-bottom: var(--vb2);
+}
+
+/* large */
+[class*="vt3"],
+[vertical-top="3"] {
+  padding-top: var(--vt3);
+}
+
+[class*="vb3"],
+[vertical-bottom="3"] {
+  padding-bottom: var(--vb3);
+}
+
+/* none */
+[class*="vt0"],
+[vertical-top="0"] {
+  padding-top: 0;
+}
+
+[class*="vb0"],
+[vertical-bottom="0"] {
+  padding-bottom: 0;
+}
+
+/* container styles */
+.w-container {
+  position: relative;
+  padding-left: var(--pp1);
+  padding-right: var(--pp1);
+  width: 100%;
+  max-width: var(--mw1);
+  container-type: inline-size;
+}
+
+/* page padding */
+[class*="pp1"] {
+  padding-left: var(--pp1);
+  padding-right: var(--pp1);
+}
+
+[class*="pp0"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* max width */
+[class*="mw1"] {
+  max-width: var(--mw1);
+}
+
+[class*="mw2"] {
+  max-width: var(--mw2);
+}
+
+[class*="mw0"] {
+  max-width: none;
+}
+
+/* stroke width */
+[class*="sw1"] {
+  --text-stroke-width: var(--sw1);
+}
+
+[class*="sw2"] {
+  --text-stroke-width: var(--sw2);
+}
+
+[class*="sw0"] {
+  --text-stroke-width: 0px;
+}
+
+/* border radius */
+[class*="br1"] {
+  --border-radius: var(--br1);
+}
+
+[class*="br2"] {
+  --border-radius: var(--br2);
+}
+
+[class*="br3"] {
+  --border-radius: var(--br3);
+}
+
+[class*="br0"] {
+  --border-radius: 0rem;
+}
+
+/* border width */
+[class*="bw1"] {
+  border-width: var(--bw1);
+  border-style: solid;
+}
+
+[class*="bw2"] {
+  border-width: var(--bw2);
+  border-style: solid;
+}
+
+[class*="bw0"] {
+  border-width: 0;
+}
+
+/* border direction */
+/**%{{border: top}**/
+[class*="bw1t"],
+[class*="bw2t"] {
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+/**}%**/
+
+/**%{{border: bottom}**/
+[class*="bw1b"],
+[class*="bw2b"] {
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+/**}%**/
+
+/**%{{border: left}**/
+[class*="bw1l"],
+[class*="bw2l"] {
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+}
+
+/**}%**/
+
+/**%{{border: right}**/
+[class*="bw1r"],
+[class*="bw2r"] {
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+}
+
+/**}%**/
+
+/**%{{border: vertical}**/
+[class*="bw1v"],
+[class*="bw2v"] {
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+/**}%**/
+
+/**%{{border: horizontal}**/
+[class*="bw1h"],
+[class*="bw2h"] {
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+
+/**}%**/
+
+/* pointer events */
+[class*="pe0"] {
+  pointer-events: none;
+}
+
+[class*="pe1"] {
+  pointer-events: auto;
+}
+
+/**%{{pointer-events: children}**/
+[class*="pe2"] {
+  pointer-events: none;
+}
+
+[class*="pe2"]>* {
+  pointer-events: auto;
+}
+
+/**}%**/
+
+/* icon styles */
+/**%#**/
+[class*="ic1"] svg,
+[class*="ic2"] svg {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/**#%**/
+[class*="ic1"] * {
+  fill: currentColor !important;
+}
+
+[class*="ic2"] * {
+  stroke: currentColor !important;
+}
+
+/* cover */
+[class*="cf1"] {
+  width: 100%;
+  height: 100%;
+}
+
+[class*="ca1"] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Menus Wrapper: For display on desktop as a wrapper around menu components to change the sizing */
+[mini="true"] {
+  container-type: inline-size;
+  container-name: menu;
+  max-width: 250px;
+}
+
+@container menu (max-width:250px) {
+  .menuitem {
+    min-height: 32px;
+  }
+
+  .g-privacy .menuitem {
+    min-height: 48px;
+  }
+
+  .mic-lead-icn {
+    padding: 0px 8px;
+  }
+
+  .label {
+    font-size: var(--r4);
+  }
+
+  .shead {
+    display: none;
+  }
+}
