@@ -1,0 +1,118 @@
+[data-chip-style="nl"] {
+  background: var(--color--p000)4d;
+  border-width: 1px;
+  border-color: var(--color--n300);
+  color: var(--color--n500);
+}
+
+[data-chip-style="nl"]:disabled {
+  border-color: var(--color--p100);
+  color: var(--color--p200);
+  cursor: not-allowed;
+}
+
+[data-chip-style="nf"] {
+  background: var(--color--n200);
+  border-width: 1px;
+  border-color: var(--color--n200);
+  color: var(--color--n900);
+}
+
+[data-chip-style="nf"]:disabled {
+  border-color: var(--color--n100);
+  color: var(--color--n200);
+  cursor: not-allowed;
+}
+
+[data-chip-style="pl"] {
+  background: var(--color--p100)4d;
+  border-width: 1px;
+  border-color: var(--color--p300);
+  color: var(--color--p500);
+}
+
+[data-chip-style="pl"]:disabled {
+  border-color: var(--color--p100);
+  color: var(--color--p200);
+  cursor: not-allowed;
+}
+
+[data-chip-active="true"] {
+  background: var(--color--p100)80;
+  border-width: 1px;
+  border-color: var(--color--p500);
+  color: var(--color--p500);
+}
+
+[data-chip-active="true"] * .label .txt {
+  font-weight: bold;
+}
+
+[data-chip-active="true"] * .label .icn::first-letter {
+  text-transform: uppercase;
+}
+
+/**********************************************/
+
+/* Hide default checkbox */
+.chip_wrap input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* BASE When the checkbox is checked, change label to selected color */
+.chip_wrap input:checked~.chip-base-label {
+  color: rgba(var(--color--p500), 1);
+  font-weight: bold;
+}
+
+/* On mouse-over, add a grey background color */
+.chip_wrap:hover input~.chip-check .icn {
+  color: rgba(var(--color--n100), 1);
+}
+
+/* When the checkbox is checked, change chip background to selected color */
+.chip_wrap:has(input:checked) {
+  background-color: rgba(var(--color--p100), 1);
+  border-color: rgba(var(--color--p500), 1);
+}
+
+/* FILTER */
+/* When the checkbox is checked, change label to selected color */
+.chip_wrap input:checked~.chip-filter .label {
+  color: rgba(var(--color--p500), 1);
+}
+
+/* When the checkbox is checked, change label to bold */
+.chip_wrap input:checked~.chip-filter .label .txt {
+  font-weight: bold;
+}
+
+/* When the checkbox is checked, change icon to filled state */
+.chip_wrap input:checked~.chip-filter .label .icn::first-letter {
+  text-transform: uppercase;
+}
+
+/* ASSIST */
+/* When the checkbox is checked, change label to selected color */
+.chip_wrap input:checked~.chip-assist .label {
+  color: rgba(var(--color--p500), 1);
+}
+
+/* When the checkbox is checked, change label to bold */
+.chip_wrap input:checked~.chip-assist .label .txt {
+  font-weight: bold;
+}
+
+/* When the checkbox is checked, change icon to filled state */
+.chip_wrap input:checked~.chip-assist .label .icn::first-letter {
+  text-transform: uppercase;
+}
+
+/* When the checkbox is checked, change checked icon to selected color */
+.chip_wrap input:checked~.chip-check .icn {
+  color: rgba(var(--color--n000), 1);
+}
