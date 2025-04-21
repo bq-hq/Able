@@ -1,0 +1,21 @@
+/* Banner Sizes */
+[data-bnr-size="l"] {
+  padding: 8px 8px;
+}
+
+[data-bnr-size="m"] {
+  padding: 4px 8px;
+}
+
+[data-bnr-size="s"] {
+  padding: 2px 8px;
+}
+
+/* Banner Color */
+[data-bnr-clr="n"] {
+  background: var(--color--n9996);
+}
+
+[data-bnr-clr="p"] {
+  background: var(--color--p500);
+}
