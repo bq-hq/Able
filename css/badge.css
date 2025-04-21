@@ -1,0 +1,71 @@
+/* Badge Sizes */
+[data-bdg-size="xl"] {
+  width: var(--size--32px);
+  height: var(--size--32px);
+}
+
+[data-bdg-size="xl"] .label_wrap .icn {
+  font-size: var(--_typography---size--r3);
+}
+
+[data-bdg-size="l"] {
+  width: var(--size--24px);
+  height: var(--size--24px);
+}
+
+[data-bdg-size="l"] .label_wrap .icn {
+  font-size: var(--_typography---size--r4);
+}
+
+[data-bdg-size="m"] {
+  width: var(--size--16px);
+  height: var(--size--16px);
+}
+
+[data-bdg-size="m"] .label_wrap .icn {
+  font-size: var(--_typography---size--r4);
+}
+
+[data-bdg-size="sm"] {
+  width: 10px;
+  height: 10px;
+}
+
+[data-bdg-size="s"] {
+  width: 6px;
+  height: 6px;
+}
+
+/* Badge Color */
+[data-bdg-clr="d"] {
+  background: var(--color--fd500);
+}
+
+[data-bdg-clr="w"] {
+  background: var(--color--fw500);
+}
+
+[data-bdg-clr="s"] {
+  background: var(--color--fs500);
+}
+
+[data-bdg-clr="p"] {
+  background: var(--color--p500);
+}
+
+[data-bdg-clr="n"] {
+  background: var(--color--n700);
+}
+
+/* Badge Availability Color */
+[data-bdg-clr="on"] {
+  background: rgba(var(--green-500), 1);
+}
+
+[data-bdg-clr="off"] {
+  background: rgba(var(--grey-300), 1);
+}
+
+[data-bdg-clr="busy"] {
+  background: rgba(var(--red-500), 1);
+}
