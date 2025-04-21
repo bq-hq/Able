@@ -1,0 +1,214 @@
+/***********************************************/
+/**MOVED FROM DS CODE***************************/
+/***********************************************/
+
+/* Pagination First & Last */
+[data-rad="l"] {
+  border-top-left-radius: var(--radius--br3);
+  border-bottom-left-radius: var(--radius--br3);
+  border-left: 1px solid var(--color--n9992);
+}
+
+[data-rad="r"] {
+  border-top-right-radius: var(--radius--br3);
+  border-bottom-right-radius: var(--radius--br3);
+  border-right: 1px solid var(--color--n9992);
+}
+
+[popover] {
+  inset: unnset;
+  bottom: anchor(top);
+  left: anchor(center);
+  translate: -50%;
+  margin: 0.25rem 0;
+}
+
+/* Makes BBC SegmentBar & Textfield correct height */
+.bbc_prime .segopt-ctrl {
+  height: 48px;
+}
+
+.bbc_input-field .field-input .textfield {
+  height: 48px;
+}
+
+/* IN GITHUB */
+/* Padding and design changes when cell content is in Card format */
+.cell-wrap[data-cell-card="true"] {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* For Standard Sections & Containers for Discovery */
+
+[data-pad="m"] {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.section_wrap * .lic-lead {
+  padding-left: 0px;
+}
+
+.section_wrap .u-bar-ss .bar-stats {
+  padding-left: 32px;
+}
+
+.section-con {
+  width: attr(data-width %, inherit);
+}
+
+@media screen and (max-width: 991px) {
+
+  .section-con {
+    width: 100%;
+  }
+
+  .section_wrap * .headline-wrap,
+  .section_wrap * .lic-lead {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.grid-container[grid-col="12"] {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.grid-container[grid-col="8"] {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+.grid-container[grid-col="4"] {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-container[grid-col="3"] {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-container[grid-col="2"] {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-container[grid-col="1"] {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.grid-container[grid-gap="32"] {
+  gap: 32px;
+}
+
+.grid-container[grid-gap="16"] {
+  gap: 16px;
+}
+
+.grid-container[grid-gap="8"] {
+  gap: 8px;
+}
+
+.grid-container[grid-pad="32"] {
+  padding: 32px;
+}
+
+.grid-container[grid-pad="16"] {
+  padding: 16px;
+}
+
+.grid-container[grid-pad="8"] {
+  padding: 8px;
+}
+
+.grid-container>div {
+  color: --n000;
+  padding: 10px;
+}
+
+.test-div {
+  background-color: attr(bgclr type(<hex-color> | <string> | <named-color> | <system-color>));
+}
+
+.test-div {
+  background-color: blue;
+}
+
+.test-div[data-bgclr] {
+  background-color: attr(data-bgcolor type(<color> | <hex-color>), red);
+}
+
+.background {
+  background-color: red;
+}
+
+.background[data-background] {
+  background-color: attr(data-background type(<color> | <hex-color> | <string>), blue);
+}
+
+@media screen and (max-width: 767px) {
+  [data-ts="fg"] {
+    text-shadow: 0px -.5px 0px var(--color--n999), 0px .8px 0px var(--color--n0005);
+  }
+}
+
+/* Toggle Dark Mode Test */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* DS Neutrals */
+    --n000: #111111;
+    --n100: #505050;
+    --n200: #666666;
+    --n300: #9a9a9a;
+    --n500: #c4c4c4;
+    --n700: #e5e5e5;
+    --n900: #f0f0f0;
+    --n999: #FFFFFF;
+    /* DS Primary */
+    --p100: #072348;
+    --p200: #1252a8;
+    --p300: #1975f0;
+    --p500: #5e9ef5;
+    --p700: #e8f1fe;
+    --p900: #e8f1fe;
+    /* DS Secondary */
+    --s500: #beef10;
+    /* DS Focus: Default, Danger, Warn, Success */
+    --f100: #bfe5ef;
+    --f500: #00abd2;
+    --f700: #007893;
+    --fd100: #ffeced;
+    --fd500: #ed1c24;
+    --fd700: #84101d;
+    --fw100: #ffeedd;
+    --fw500: #ff8000;
+    --fw700: #8f4f0e;
+    --fy500: #fcca03;
+    --fs100: #dcffdc;
+    --fs500: #00b400;
+    --fs700: #127b12;
+    /* DS Fades & Transparency */
+    --t000: #000000;
+  }
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.w-webflow-badge {
+  display: None !important;
+  visibility: hidden !important;
+}
+
+/* Breaking mobile view
+<meta name="viewport" content="initial-scale-1, viewport-fit-cover, user-scalable=no" /> */
+/***********************************************/
+/**END MOVED FROM DS CODE***********************/
+/***********************************************/
