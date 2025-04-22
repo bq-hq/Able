@@ -371,6 +371,9 @@
   /* Fixes blur for Safari*/
   backdrop-filter: blur(8px);
   /* Activates blur*/
+  text-shadow: 0px -1px 0px var(--color--n9993),
+  0px 1px 0px var(--color--n0005);
+  /* Pops text on fg */
 }
 
 [data-bg-clr="fg20"] {
@@ -379,6 +382,9 @@
   /* Fixes blur for Safari*/
   backdrop-filter: blur(8px);
   /* Activates blur*/
+  text-shadow: 0px -1px 0px var(--color--n9993),
+  0px 1px 0px var(--color--n0005);
+  /* Pops text on fg */
 }
 
 [data-bg-clr="fg30"] {
@@ -387,6 +393,9 @@
   /* Fixes blur for Safari*/
   backdrop-filter: blur(8px);
   /* Activates blur*/
+  text-shadow: 0px -1px 0px var(--color--n9993),
+  0px 1px 0px var(--color--n0005);
+  /* Pops text on fg */
 }
 
 [data-bg-clr="fg40"] {
@@ -395,6 +404,9 @@
   /* Fixes blur for Safari */
   backdrop-filter: blur(8px);
   /* Activates blur */
+  text-shadow: 0px -1px 0px var(--color--n9993),
+  0px 1px 0px var(--color--n0005);
+  /* Pops text on fg */
 }
 
 [data-bg-clr="fg50"] {
@@ -403,6 +415,9 @@
   /* Fixes blur for Safari */
   backdrop-filter: blur(8px);
   /* Activates blur */
+  text-shadow: 0px -1px 0px var(--color--n9993),
+  0px 1px 0px var(--color--n0005);
+  /* Pops text on fg */
 }
 
 [data-bg-clr="fg60"] {
@@ -411,6 +426,9 @@
   /* Fixes blur for Safari */
   backdrop-filter: blur(8px);
   /* Activates blur */
+  text-shadow: 0px -1px 0px var(--color--n9993),
+  0px 1px 0px var(--color--n0005);
+  /* Pops text on fg */
 }
 
 [data-bg-clr="fg70"] {
@@ -419,6 +437,9 @@
   /* Fixes blur for Safari */
   backdrop-filter: blur(8px);
   /* Activates blur */
+  text-shadow: 0px -1px 0px var(--color--n9993),
+  0px 1px 0px var(--color--n0005);
+  /* Pops text on fg */
 }
 
 [data-bg-clr="fg80"] {
@@ -427,6 +448,9 @@
   /* Fixes blur for Safari */
   backdrop-filter: blur(8px);
   /* Activates blur */
+  text-shadow: 0px -1px 0px var(--color--n9993),
+  0px 1px 0px var(--color--n0005);
+  /* Pops text on fg */
 }
 
 [data-bg-clr="fg90"] {
@@ -435,6 +459,9 @@
   /* Fixes blur for Safari */
   backdrop-filter: blur(8px);
   /* Activates blur */
+  text-shadow: 0px -1px 0px var(--color--n9993),
+  0px 1px 0px var(--color--n0005);
+  /* Pops text on fg */
 }
 
 /**** Font Color: Binding Variables To Component Attributes
