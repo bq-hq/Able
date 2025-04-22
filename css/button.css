@@ -101,7 +101,7 @@
 }
 
 [data-btn-style="nl"] {
-  background: var(--color--t000);
+  background: var(--color--n0003);
   border-width: 1px;
   border-color: var(--color--n300);
   color: var(--color--n700);
@@ -114,7 +114,7 @@
 }
 
 [data-btn-style="nt"] {
-  background: var(--color--t000);
+  background: var(--color--n0003);
   color: var(--color--n700);
 }
 
@@ -136,7 +136,7 @@
 }
 
 [data-btn-style="ll"] {
-  background: var(--color--t000);
+  background: var(--color--n0003);
   border-width: 1px;
   border-color: var(--color--n000);
   color: var(--color--n000);
@@ -149,7 +149,7 @@
 }
 
 [data-btn-style="lt"] {
-  background: var(--color--t000);
+  background: var(--color--n0003);
   color: var(--color--n000);
 }
 
