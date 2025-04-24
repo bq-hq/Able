@@ -10,3 +10,16 @@
 .bbc-itm[data-active="true"] .label_wrap .icn::first-letter {
   text-transform: uppercase;
 }
+/* Fixes the appearance of a button in the bbc and input bars */
+[data-trail-btn-pad="n"].bar-trail-btn {
+	padding-right: 4px;
+}
+[data-trail-btn-pad="bbc"].bar-trail-btn {
+	padding-right: 8px;
+}
+.bar-lead-btn .btn-link {
+	min-width: 56px;
+}
+.bar-trail-btn .btn-link {
+	min-width: 56px;
+}
