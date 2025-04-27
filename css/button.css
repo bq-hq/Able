@@ -58,6 +58,7 @@
 }
 
 [data-btn-style*="pf"][x-disabled*="true"] {
+  border-color: var(--color--p100);
   background: var(--color--p200);
   color: var(--color--p100);
   cursor: not-allowed;
@@ -95,6 +96,7 @@
 }
 
 [data-btn-style="nf"][x-disabled*="true"] {
+  border-color: var(--color--n100);
   background: var(--color--n200);
   color: var(--color--n100);
   cursor: not-allowed;
@@ -130,6 +132,7 @@
 }
 
 [data-btn-style="lf"][x-disabled*="true"] {
+  border-color: var(--color--n100);
   background: var(--color--n200);
   color: var(--color--n100);
   cursor: not-allowed;
