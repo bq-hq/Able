@@ -56,3 +56,32 @@
   -webkit-backdrop-filter: blur(0px);
   backdrop-filter: blur(0px);
 }
+
+/* Menus Wrapper: For display on desktop as a wrapper around menu components to change the sizing */
+[data-mini="true"] {
+  container-type: inline-size;
+  container-name: menu;
+  max-width: 250px;
+}
+
+@container menu (max-width:250px) {
+  .menuitem {
+    min-height: 32px;
+  }
+
+  .g-privacy .menuitem {
+    min-height: 48px;
+  }
+
+  .mic-lead-icn {
+    padding: 0px 8px;
+  }
+
+  .label {
+    font-size: var(--r4);
+  }
+
+  .shead {
+    display: none;
+  }
+}
