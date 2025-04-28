@@ -1,0 +1,51 @@
+.dialog_bg[data-scrim='0'] {
+	background-color: var(--color--t000);
+}
+.dialog_bg[data-scrim='10'] {
+	background-color: var(--color--n9991);
+}
+.dialog_bg[data-scrim='20'] {
+	background-color: var(--color--n9992);
+}
+.dialog_bg[data-scrim='30'] {
+	background-color: var(--color--n9993);
+}
+.dialog_bg[data-scrim='40'] {
+	background-color: var(--color--n9994);
+}
+.dialog_bg[data-scrim='50'] {
+	background-color: var(--color--n9995);
+}
+.dialog_bg[data-scrim='60'] {
+	background-color: var(--color--n9996);
+}
+.dialog_bg[data-scrim='70'] {
+	background-color: var(--color--n9997);
+}
+.dialog_bg[data-scrim='80'] {
+	background-color: var(--color--n9998);
+}
+.dialog_bg[data-scrim='90'] {
+	background-color: var(--color--n9999);
+}
+.dialog_bg[data-blur='0'] {
+	-webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+}
+.dialog_bg[data-blur='3'] {
+	-webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+.dialog_bg[data-blur='5'] {
+	-webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.dialog_box[data-type='modal'] {
+	border-radius: 16px;
+}
+.dialog_box[data-type='menu'] {
+	border-radius: 4px;
+  background-color: var(--color--t000);
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+}
