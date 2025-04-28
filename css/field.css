@@ -20,7 +20,7 @@
 }
 
 .textarea {
-  /* resize: none; */
+  resize: none;
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
 }
