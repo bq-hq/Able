@@ -15,7 +15,6 @@
   border-right: 1px solid var(--color--n9992);
 }
 
-/*
 [popover] {
   inset: unnset;
   bottom: anchor(top);
@@ -23,7 +22,7 @@
   translate: -50%;
   margin: 0.25rem 0;
 }
-*/
+
 /* Makes BBC SegmentBar & Textfield correct height */
 .bbc_prime .segopt-ctrl {
   height: 48px;
