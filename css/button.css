@@ -125,7 +125,7 @@
   cursor: not-allowed;
 }
 
-/* Light */
+/* Light - Used in Capture Components*/
 [data-btn-style="lf"] {
   background: var(--color--n000);
   color: var(--color--n500);
@@ -139,7 +139,7 @@
 }
 
 [data-btn-style="ll"] {
-  background: var(--color--n0003);
+  background: var(--color--t000);
   border-width: 1px;
   border-color: var(--color--n000);
   color: var(--color--n000);
@@ -152,7 +152,7 @@
 }
 
 [data-btn-style="lt"] {
-  background: var(--color--n0003);
+  background: var(--color--t000);
   color: var(--color--n000);
 }
 
