@@ -2,7 +2,7 @@
   --segbtn-bg: var(--color--n000);
 }
 
-.segbtn-wrap {
+.segbtn_wrap {
   background: var(--segbtn-bg);
   border: 1px solid var(--seg-bdr);
   border-radius: 6px;
@@ -13,7 +13,7 @@
   width: 100%;
 }
 
-.segbtn-wrap a {
+.segbtn_wrap a {
   color: var(--seg-clr);
   display: flex;
   flex: 1;
@@ -23,26 +23,26 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-.segbtn-wrap a.active {
+.segbtn_wrap a.active {
   background: var(--seg-clr);
   color: var(--segbtn-bg);
 }
 
-.segbtn-wrap a:not(:first-child) {
+.segbtn_wrap a:not(:first-child) {
   border-left: 1px solid currentColor;
 }
 
-.segbtn-wrap-alt a:not(:first-child) {
+.segbtn_wrap-alt a:not(:first-child) {
   border: 0;
 }
 
-.segbtn-wrap-alt a.active {
+.segbtn_wrap-alt a.active {
   background: var(--seg-clr-light);
   color: var(--seg-clr);
   font-weight: bold;
 }
 
-.segbtn-menu {
+.segbtn_menu {
   background: var(--segbtn-bg);
   border: 1px solid var(--seg-bdr);
   border-radius: 6px;
@@ -53,7 +53,7 @@
   width: auto;
 }
 
-.segbtn-menu a {
+.segbtn_menu a {
   color: var(--seg-clr);
   display: flex;
   flex: 1;
@@ -76,15 +76,15 @@
   text-transform: uppercase;
 }
 
-.segbtn-menu a:not(:first-child) {
+.segbtn_menu a:not(:first-child) {
   border-left: 1px solid currentColor;
 }
 
-.segbtn-wrap-alt a:not(:first-child) {
+.segbtn_wrap-alt a:not(:first-child) {
   border: 0;
 }
 
-.segbtn-wrap-alt a.active {
+.segbtn_wrap-alt a.active {
   background: var(--seg-clr-light);
   color: var(--seg-clr);
   font-weight: bold;
