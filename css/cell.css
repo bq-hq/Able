@@ -1,54 +1,54 @@
 /* Cell Size Standards */
 /* For standard cell widths */
-[data-cell-size="9xl"] {
+[data-cell-sz="9xl"] {
   width: 640px;
 }
 
-[data-cell-size="8xl"] {
+[data-cell-sz="8xl"] {
   width: 540px;
 }
 
-[data-cell-size="7xl"] {
+[data-cell-sz="7xl"] {
   width: 440px;
 }
 
-[data-cell-size="6xl"] {
+[data-cell-sz="6xl"] {
   width: 360px;
 }
 
-[data-cell-size="5xl"] {
+[data-cell-sz="5xl"] {
   width: 300px;
 }
 
-[data-cell-size="4xl"] {
+[data-cell-sz="4xl"] {
   width: 200px;
 }
 
-[data-cell-size="3xl"] {
+[data-cell-sz="3xl"] {
   width: 156px;
 }
 
-[data-cell-size="2xl"] {
+[data-cell-sz="2xl"] {
   width: 104px;
 }
 
-[data-cell-size="xl"] {
+[data-cell-sz="xl"] {
   width: 88px;
 }
 
-[data-cell-size="l"] {
+[data-cell-sz="l"] {
   width: 72px;
 }
 
-[data-cell-size="m"] {
+[data-cell-sz="m"] {
   width: 56px;
 }
 
-[data-cell-size="s"] {
+[data-cell-sz="s"] {
   width: 40px;
 }
 
-[data-cell-size="xs"] {
+[data-cell-sz="xs"] {
   width: 32px;
 }
 
