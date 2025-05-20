@@ -19,7 +19,7 @@
   inset: unnset;
   bottom: anchor(top);
   left: anchor(center);
-  translate: -50%;
+  /* translate: -50%; */
   margin: 0.25rem 0;
 }
 
