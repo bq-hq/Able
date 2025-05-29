@@ -4,7 +4,7 @@
   height: var(--size--32px);
 }
 
-[data-bdg-size="xl"] .label_wrap .icn {
+[data-bdg-size="xl"] * .icn {
   font-size: var(--_typography---size--r3);
 }
 
@@ -13,7 +13,7 @@
   height: var(--size--24px);
 }
 
-[data-bdg-size="l"] .label_wrap .icn {
+[data-bdg-size="l"] * .icn {
   font-size: var(--_typography---size--r4);
 }
 
@@ -22,7 +22,7 @@
   height: var(--size--16px);
 }
 
-[data-bdg-size="m"] .label_wrap .icn {
+[data-bdg-size="m"] * .icn {
   font-size: var(--_typography---size--r4);
 }
 
