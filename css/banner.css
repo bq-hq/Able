@@ -19,3 +19,32 @@
 [data-bnr-clr="p"] {
   background: var(--color--p500);
 }
+
+/* Banner Location */
+[data-bnr-loc="tl"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0px 0px 8px 0px;
+}
+
+[data-bnr-loc="tr"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0px 0px 0px 8px;
+}
+
+[data-bnr-loc="bl"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0px 8px 0px 0px;
+}
+
+[data-bnr-loc="br"] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 8px 0px 0px 0px;
+}
