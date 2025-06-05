@@ -3,6 +3,9 @@
 ## Overview
 Images are like those friends who always show up right when you need them - lazy loading an image only when it's in the viewport. It's like having a party where guests only arrive when you actually start missing them. Trust me, it's a lifesaver especially when you're dealing with a long list of images.
 
+![image](https://github.com/user-attachments/assets/64b23a60-b75b-494a-96f3-2c8ed0e63e0d)
+
+
 ## Properties
 Note: For each property, the **bolded** value indicates the default setting.
 
