@@ -3,6 +3,9 @@
 ## Overview
 Imagine your icons are like a fancy cocktail party - there's a new format called AdaptIcons where the background shapes are the stylish venue and the foreground icon is the life of the party. It's like having a two-layered fashion statement - the backdrop sets the mood and the icon steals the show. Trust me, it's like having a wardrobe full of mix-and-match outfits for your digital world.
 
+![adapticon](https://github.com/user-attachments/assets/df2a7628-6142-407c-929e-5a4cc24f64f2)
+
+
 ## Properties
 Note: For each property, the **bolded** value indicates the default setting.
 
