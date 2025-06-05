@@ -5,6 +5,9 @@ A button panel is like a squad of buttons ready to tackle tasks together, all un
 
 Just like individual buttons, button panels can inherit all the cool properties of the button component - from styles to functionalities, they've got it all covered. It's like having a well-coordinated ensemble that knows how to work together harmoniously, making interactions smooth and seamless for users. So, think of button panels as the dream team that's always in sync and ready to make things happen with a click.
 
+![btnpnl](https://github.com/user-attachments/assets/73618486-a1d5-4da3-b3a6-d7b8e41d4496)
+
+
 ## Properties
 Note: For each property, the **bolded** value indicates the default setting.
 
