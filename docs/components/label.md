@@ -3,6 +3,9 @@
 ## Overview
 Ah, the label component - the chameleon of the design world. It's like a stylist for your text, giving it that 'oomph' it needs to stand out. Need a splash of color? Boom, label! Want to make that text pop? Label's got your back. And guess what? It can even rock an icon alongside the text - total multitasker, I know, right? So, if you want your components to have that extra flair, just remember: labels are the ultimate fashion statement for text.
 
+![label](https://github.com/user-attachments/assets/18c47292-a60a-4ceb-bcbc-344f53b55a73)
+
+
 ## Properties
 Note: For each property, the **bolded** value indicates the default setting.
 
