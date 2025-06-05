@@ -3,6 +3,9 @@
 ## Overview
 The checkbox control is like the classic "pick me!" box, but with a modern twist. It’s the go-to for letting users select one or more options from a list, and it comes with all the style and feedback you’d expect from a polished UI component. Whether you’re building a to-do list or a settings panel, this checkbox is ready to check all the right boxes.
 
+![ctrl-cbox](https://github.com/user-attachments/assets/87c079fd-86a6-4575-b07b-14fcc58b8958)
+
+
 ## Properties
 Note: For each property, the **bolded** value indicates the default setting.
 
