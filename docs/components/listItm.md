@@ -3,6 +3,9 @@
 ## Overview
 Alright, buckle up because the ListItem is like your Swiss Army knife in the world of displaying content - it's the go-to for showcasing repeated info in a neat list. Picture it like a three-act play: you've got the Leading, Primary, and Trailing areas, each with their own bag of tricks for displaying all sorts of content in various ways. It's like having a multi-talented performer that can adapt to any situation and steal the spotlight every time.
 
+![ListItm](https://github.com/user-attachments/assets/49b67854-c076-4ae7-91c1-0e97771ac191)
+
+
 ## Properties
 Note: For each property, the **bolded** value indicates the default setting.
 
