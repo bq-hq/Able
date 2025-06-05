@@ -3,6 +3,9 @@
 ## Overview
 So, a paragraph is like the trusty sidekick to your headline - it's where you get to spill all the juicy details in a longer format. You can style it like a boss, whether you want to align it left, right, or center - it's your call. It's like having a flexible friend who's always down to play along with your formatting whims.
 
+![paragraph](https://github.com/user-attachments/assets/4169e792-29ca-444f-9d83-5aed858ac5e6)
+
+
 ## Properties
 Note: For each property, the **bolded** value indicates the default setting.
 
