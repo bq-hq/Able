@@ -4,7 +4,7 @@
   height: var(--size--32px);
 }
 
-[data-bdg-size="xl"] * .icn {
+[data-bdg-size="xl"] .badge_wrap * .icn {
   font-size: var(--_typography---size--r3);
 }
 
@@ -13,7 +13,7 @@
   height: var(--size--24px);
 }
 
-[data-bdg-size="l"] * .icn {
+[data-bdg-size="l"] .badge_wrap * .icn {
   font-size: var(--_typography---size--r4);
 }
 
@@ -22,7 +22,7 @@
   height: var(--size--16px);
 }
 
-[data-bdg-size="m"] * .icn {
+[data-bdg-size="m"] .badge_wrap * .icn {
   font-size: var(--_typography---size--r4);
 }
 
