@@ -3,7 +3,8 @@
 ## Overview
 Icons are simple yet versatile, able to rock any icon from the font set like it's nobody's business. And they're not just one-trick ponies - you can style them up with different sizes and colors to really make them pop. It's like giving them a stylish makeover to match the vibe of your design. Icons are the chameleons of the design world, effortlessly blending in or standing out, depending on how you want them to shine.
 
-![Icon component example](icon_example.png)
+![icon](https://github.com/user-attachments/assets/e669386c-e4cf-4edb-bc6b-18e0cd036933)
+
 
 ## Properties
 Note: For each property, the **bolded** value indicates the default setting.
