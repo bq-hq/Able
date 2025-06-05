@@ -3,6 +3,9 @@
 ## Overview
 Think of a headline as the rockstar of the show - it's like the frontman belting out the main message of the page or section. And just when you thought the party couldn't get any better, there's subtext grooving along below, adding that extra oomph to keep the crowd entertained. It's like having a headline that sets the stage and subtext that steals the encore.
 
+![headline](https://github.com/user-attachments/assets/684840c6-2c37-435e-875f-6f91da66ff88)
+
+
 ## Properties
 Note: For each property, the **bolded** value indicates the default setting.
 
