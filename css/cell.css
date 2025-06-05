@@ -78,7 +78,7 @@
 }
 
 /* Card Caption: Padding for the sides */
-[data-cap-pad="y"] {
+[data-cap-pad="true"] {
   padding: 4px 8px;
 }
 
