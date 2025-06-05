@@ -5,6 +5,9 @@ Avatars bring a touch of personality to an image or icon. They're the cool kids 
 
 You can think of avatars as the versatile fashion accessories of the design world - they can stand alone, making a statement all by themselves, or seamlessly blend in with any element to elevate the overall look and feel. It's like having a mini work of art that can stand out on its own or play well with others, depending on the vibe you're going for.
 
+![avatar](https://github.com/user-attachments/assets/3f427a0c-0ec3-4c5d-92d9-b681c7dc9504)
+
+
 ## Properties
 Note: For each property, the **bolded** value indicates the default setting.
 
