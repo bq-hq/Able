@@ -3,6 +3,9 @@
 ## Overview
 The slider field combines the slider control with a label and helper text, making it easy to explain what the slider does and how to use it. It’s a great fit for forms, settings, and anywhere you want to give users a little extra guidance.
 
+![field-slider](https://github.com/user-attachments/assets/c09a8077-0023-464c-952a-76c2b620d339)
+
+
 ## Properties
 Note: For each property, the **bolded** value indicates the default setting.
 
