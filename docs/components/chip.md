@@ -3,6 +3,9 @@
 ## Overview
 Chips are like those mini billboards that give a sneak peek into a larger entity, like a contact or a cool character in a blockbuster movie. They're like a mixed bag of goodies, with avatars, text, and icons all crammed into a tiny block. It's like having a mini storytelling session right there on your screen, complete with all the bells and whistles. Chips are like the fancy appetizers of the web world, serving up a taste of what's to come in a bite-sized package.
 
+![chip](https://github.com/user-attachments/assets/582a3c95-0ec8-48f5-bc42-93026cb95af5)
+
+
 ## Properties
 Note: For each property, the **bolded** value indicates the default setting.
 
