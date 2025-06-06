@@ -10,11 +10,10 @@ Every Color Style file has at least two modes, Light (default) and Dark. With th
 
 <div>
 
-<figure><img src="../../.gitbook/assets/Mode - Light.png" alt=""><figcaption></figcaption></figure>
+![Mode - Light](https://github.com/user-attachments/assets/4693ea88-789c-4c8a-b1c9-e28fabe064d7)
 
- 
+![Mode - Dark](https://github.com/user-attachments/assets/87c437bd-0699-47ed-ad27-6595afd5874c)
 
-<figure><img src="../../.gitbook/assets/Mode - Dark.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
