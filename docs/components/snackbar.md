@@ -19,25 +19,22 @@ Note: For each property, the **bolded** value indicates the default setting.
   Values: **Visible**, Hidden
 
 - **SbStyle** – Style variant  
-  Values: **none** (string)
+  Values: **none** | success | error | warn | info
 
 - **SblcnSrc** – Icon source  
-  Values: **default** (string)
+  Values: **default** an icon name
 
 - **SbTxtSrc** – Snackbar message text  
-  Values: **Snackbar message goes here and wrap** (string)
+  Values: (string)
 
 - **SbBtnTxtSrc** – Action button text  
   Values: **Action** (string)
 
 - **SbBtnLink** – Action button link  
-  - **Type**: link, document, phone, email, arrow, custom  
-  - **URL**: **#** (string)  
-  - **Open in**: **This tab**, New tab  
-  - **Preload**: **Default** (string)
+  Values: (string)  
 
 - **SbBtnClick** – Action button click event  
   Values: (event handler)
 
 - **SbLoc** – Snackbar location  
-  Values: **top** (string)
+  Values: **top** | btm | center
