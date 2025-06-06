@@ -4,7 +4,7 @@ This is a good introduction to themes in a design system like we're creating her
 
 Fundamentally, theming is used to modify "skin" existing elements and components to apply a visual style to an application. However, themes can control far more than a change in the colors. The theme in the ABLE design system consists of the following style, dictionary and library files:
 
-* [Color Styles](styles/color.md)
+* [Color Styles](style.md)
 * [Text Styles](styles/typography.md)
 * [Effect Styles](styles/effect.md) (Shadows & Treatments)
 * [Icon Library](iconography.md)
