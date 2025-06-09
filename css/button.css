@@ -39,7 +39,7 @@
 
 [data-btn-size="d"] {
   height: auto;
-  padding: 6px 10px 6px 10px;
+  padding: 8px 10px 8px 10px;
   font-size: var(--_typography---size--h5);
   border-radius: 6px;
 }
