@@ -63,7 +63,7 @@
 .section_wrap .u-bar-ss .bar-stats {
   padding-left: 32px;
 }
-
+/* Gives ability to set the % of width copy fills over billboard */
 .section-con {
   width: attr(data-width %, inherit);
 }
