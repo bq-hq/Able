@@ -64,7 +64,7 @@
   padding-left: 32px;
 }
 /* Gives ability to set the % of width copy fills over billboard */
-.section-con {
+.bb-content {
   width: attr(data-width %, inherit);
 }
 
