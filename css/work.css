@@ -40,11 +40,21 @@
 }
 
 /* For Standard Sections & Containers for Discovery */
+[data-pad="xs"] {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+[data-pad="s"] {
+  padding-left: 16px;
+  padding-right: 16px;
+}
 
 [data-pad="m"] {
   padding-left: 32px;
   padding-right: 32px;
 }
+
 
 .section_wrap * .lic-lead {
   padding-left: 0px;
