@@ -103,7 +103,7 @@
 }
 
 [data-btn-style="nl"] {
-  background: var(--color--n0003);
+  background: var(--color--n0000);
   border-width: 1px;
   border-color: var(--color--n300);
   color: var(--color--n700);
@@ -116,7 +116,7 @@
 }
 
 [data-btn-style="nt"] {
-  background: var(--color--n0003);
+  background: var(--color--n0000);
   color: var(--color--n700);
 }
 
