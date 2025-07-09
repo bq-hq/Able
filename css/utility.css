@@ -50,6 +50,24 @@ html {
   width: 56px;
 }
 
+/* Custom Scrollbar in body of dialogs */
+/* width */
+.a-body::-webkit-scrollbar {
+  width: 2px;
+}
+/* Track */
+.a-body::-webkit-scrollbar-track {
+  background: var(--color--n100);
+}
+/* Handle */
+.a-body::-webkit-scrollbar-thumb {
+  background: var(--color--p500);
+}
+/* Handle on hover */
+.a-body::-webkit-scrollbar-thumb:hover {
+  background: var(--color--p700);
+}
+
 /* Media View Component Styling */
 .media_view[data-bg-clr="black"] * {
   background-color: black;
