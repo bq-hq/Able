@@ -49,12 +49,28 @@
 }
 .dialog_box[data-type='modal'] {
 	border-radius: 16px;
+	position: fixed;
+	inset: 50% auto auto 50%;
+	z-index: 1110;
+	overflow: hidden;
+	transform: translate(-50%, -50%);
+}
+.dialog_box[data-type='sheet'] {
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	position: fixed;
+	inset: auto 0% 0% 0%;
+	z-index: 1110;
+	overflow: hidden;
 }
 .dialog_box[data-type='menu'] {
 	border-radius: 4px;
-  background-color: var(--color--t000);
-  -webkit-backdrop-filter: blur(0px);
-  backdrop-filter: blur(0px);
+  	background-color: var(--color--t000);
+  	-webkit-backdrop-filter: blur(0px);
+  	backdrop-filter: blur(0px);
+	position: fixed;
+	z-index: 1110;
+	overflow: hidden;
 }
 
 /* Menus Wrapper: For display on desktop as a wrapper around menu components to change the sizing */
