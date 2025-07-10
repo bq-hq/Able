@@ -44,11 +44,11 @@
   color: var(--color--p500);
 }
 
-[data-chip-active="true"] * .label .txt {
+[data-chip-active="true"] * .label_wrap .txt {
   font-weight: bold;
 }
 
-[data-chip-active="true"] * .label .icn::first-letter {
+[data-chip-active="true"] * .label_wrap .icn::first-letter {
   text-transform: uppercase;
 }
 
