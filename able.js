@@ -71,6 +71,14 @@ let paths = window.location.pathname.split('/')
   link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/custom.css'; 
   document.head.appendChild(link); 
 } 
+
+// dialog -> 
+{ 
+  const link = document.createElement('link'); 
+  link.rel = 'stylesheet'; 
+  link.href = 'https://cdn.jsdelivr.net/gh/bq-hq/able@latest/css/dialog.css'; 
+  document.head.appendChild(link); 
+} 
  
 // element -> 
 { 
